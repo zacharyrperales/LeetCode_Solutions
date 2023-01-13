@@ -5,6 +5,19 @@ Original solutions
 - [Two Sum](#two-sum)
 ## Palindrome Number
 ### Python
+#### Time Complexity
+$$
+\begin{flalign}
+& O(n) &
+\end{flalign}
+$$
+#### Space Complexity
+$$
+\begin{flalign}
+& O(n) &
+\end{flalign}
+$$
+#### Solution
 ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -21,6 +34,19 @@ class Solution:
 
 ## Two Sum
 ### Python
+#### Time Complexity
+$$
+\begin{flalign}
+& O(n^2) &
+\end{flalign}
+$$
+#### Space Complexity
+$$
+\begin{flalign}
+& O(n) &
+\end{flalign}
+$$
+#### Solution
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
