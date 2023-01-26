@@ -1,5 +1,6 @@
 # Leetcode Solutions
-Original solutions
+Solutions for problems on the LeetCode platform
+
 ## Index
 - [Palindrome Number](#palindrome-number)
 - [Two Sum](#two-sum)
