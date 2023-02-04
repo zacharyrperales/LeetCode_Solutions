@@ -5,6 +5,7 @@ Solutions for problems on the LeetCode platform
 - [Palindrome Number](#palindrome-number)
 - [Two Sum](#two-sum)
 - [Roman to Integer](#roman-to-integer)
+- [Longest Common Prefix](#longest-common-prefix)
 
 ## Palindrome Number
 ### Python
@@ -89,9 +90,22 @@ The same principle applies to the number nine, which is written as `IX`. There a
 
 Given a roman numeral, convert it to an integer.
 
-### Constraints:
+### Constraints
 * `1 <= s.length <= 15`
 * `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
 *  It is **guaranteed** that s is a valid roman numeral in the range [1, 3999].
 
 #### [Solution: Python](./Python/roman_to_integer.py)
+
+## Longest Common Prefix
+
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string `""`.
+
+### Constraints
+
+* `1 <= strs.length <= 200`
+* `0 <= strs[i].length <= 200`
+* `strs[i]` consists of only lowercase English letters.
+
+#### [Solution: Python](./Python/longest_common_prefix.py)
