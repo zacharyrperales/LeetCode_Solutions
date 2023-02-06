@@ -1,4 +1,5 @@
 # Leetcode Solutions
+
 Solutions for problems on the LeetCode platform
 
 ## Index
@@ -7,6 +8,7 @@ Solutions for problems on the LeetCode platform
 - [Roman to Integer](#roman-to-integer)
 - [Longest Common Prefix](#longest-common-prefix)
 - [Valid Parentheses](#valid-parentheses)
+- [Shuffle the Array](#shuffle-the-array)
 
 ## Palindrome Number
 ### Python
@@ -118,7 +120,9 @@ Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'
 An input string is valid if:
 
 Open brackets must be closed by the same type of brackets.
+
 Open brackets must be closed in the correct order.
+
 Every close bracket has a corresponding open bracket of the same type.
 
 ### Constraints
@@ -127,3 +131,17 @@ Every close bracket has a corresponding open bracket of the same type.
 * `s` consists of parentheses only `'()[]{}'`.
 
 ### [Solution: Python](./Python/valid_parentheses.py)
+
+## Shuffle the Array
+
+Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
+
+*Return the array in the form* `[x1,y1,x2,y2,...,xn,yn]`.
+
+### Constraints
+
+* `1 <= n <= 500`
+* `nums.length == 2n`
+* `1 <= nums[i] <= 10^3`
+
+### [Solution: Python](./Python/shuffle_the_array.py)
