@@ -6,6 +6,7 @@ Solutions for problems on the LeetCode platform
 - [Two Sum](#two-sum)
 - [Roman to Integer](#roman-to-integer)
 - [Longest Common Prefix](#longest-common-prefix)
+- [Valid Parentheses](#valid-parentheses)
 
 ## Palindrome Number
 ### Python
@@ -21,7 +22,7 @@ $$
 & O(n) &
 \end{flalign}
 $$
-#### Solution
+### Solution
 ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -50,7 +51,7 @@ $$
 & O(n) &
 \end{flalign}
 $$
-#### Solution
+### Solution
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -95,7 +96,7 @@ Given a roman numeral, convert it to an integer.
 * `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
 *  It is **guaranteed** that s is a valid roman numeral in the range [1, 3999].
 
-#### [Solution: Python](./Python/roman_to_integer.py)
+### [Solution: Python](./Python/roman_to_integer.py)
 
 ## Longest Common Prefix
 
@@ -108,4 +109,21 @@ If there is no common prefix, return an empty string `""`.
 * `0 <= strs[i].length <= 200`
 * `strs[i]` consists of only lowercase English letters.
 
-#### [Solution: Python](./Python/longest_common_prefix.py)
+### [Solution: Python](./Python/longest_common_prefix.py)
+
+## Valid Parentheses
+
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+### Constraints
+
+* `1 <= s.length <= 104`
+* `s` consists of parentheses only `'()[]{}'`.
+
+### [Solution: Python](./Python/valid_parentheses.py)
