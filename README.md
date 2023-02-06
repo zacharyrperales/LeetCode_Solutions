@@ -1,8 +1,22 @@
-# Leetcode Solutions
+![License](https://img.shields.io/github/license/aardzark/LeetCode_Python_Solutions?color=%233D79A9)
+![HitCount](https://img.shields.io/endpoint?color=%23F7D550&url=https%3A%2F%2Fhits.dwyl.com%2Faardzark%2FLeetCode_Python_Solutions.json)
+![Top Language](https://img.shields.io/github/languages/top/aardzark/LeetCode_Python_Solutions?color=%233d79a9)
+![Last Commit](https://img.shields.io/github/last-commit/aardzark/LeetCode_Python_Solutions?color=f7d550)
 
-Solutions for problems on the LeetCode platform
+<div>
+<h1>
+  <div align="center">
+    <a href="https://www.leetcode.com/zacharyromeperales"><img src="https://camo.githubusercontent.com/7c89b46de0f34cfcc4d8c7217c2359d1b1af78c72151f73f4e81b7aa127ca4c6/68747470733a2f2f692e696d6775722e636f6d2f49735335786b5a2e706e67" width="200"></a>
+    <br>
+    <a href="https://www.leetcode.com">LeetCode</a> Challenge Solutions in Python
+  </div>
+  <br>
+  <div align="left">
+    Index
+  </div>
+</h1>
+</div>
 
-## Index
 - [Palindrome Number](#palindrome-number)
 - [Two Sum](#two-sum)
 - [Roman to Integer](#roman-to-integer)
@@ -10,63 +24,34 @@ Solutions for problems on the LeetCode platform
 - [Valid Parentheses](#valid-parentheses)
 - [Shuffle the Array](#shuffle-the-array)
 
-## Palindrome Number
-### Python
-#### Time Complexity
-$$
-\begin{flalign}
-& O(n) &
-\end{flalign}
-$$
-#### Space Complexity
-$$
-\begin{flalign}
-& O(n) &
-\end{flalign}
-$$
-### Solution
-```python
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        unreversed = str(x)
-        reversed = ""
-        i = 0
-        for digit in unreversed:
-            reversed = reversed + unreversed[len(unreversed)- 1 - i]
-            i = i + 1
-        if unreversed.__eq__(reversed):
-            return True
-        return False
-```
+# Palindrome Number
 
-## Two Sum
-### Python
-#### Time Complexity
-$$
-\begin{flalign}
-& O(n^2) &
-\end{flalign}
-$$
-#### Space Complexity
-$$
-\begin{flalign}
-& O(n) &
-\end{flalign}
-$$
-### Solution
-```python
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        result = []
-        reverse = list(reversed(nums))
-        for x in nums:
-            for y in reverse:
-                if x + y == target and nums.index(x) != len(nums) - 1 - reverse.index(y) and not result:
-                    result = [nums.index(x), len(nums) - 1 - reverse.index(y)]
-        return result
-```
+Given an integer `x`, return `true` if `x` is a *[palindrome](https://en.wikipedia.org/wiki/Palindrome)*, and `false` otherwise.
 
-## Roman to Integer
+## Constraints
+
+* `-2^31 <= x <= 2^31 - 1`
+
+### [Solution](./Python/palindrome_number.py)
+
+# Two Sum
+
+Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
+
+You may assume that each input would have ***exactly*** **one solution**, and you may not use the *same* element twice.
+
+You can return the answer in any order.
+
+## Constraints
+* `2 <= nums.length <= 10^4`
+* `-10^9 <= nums[i] <= 10^9`
+* `-10^9 <= target <= 10^9`
+* *Only one valid answer exists.*
+
+
+### [Solution](./Python/two_sum.py)
+
+# Roman to Integer
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
@@ -93,27 +78,27 @@ The same principle applies to the number nine, which is written as `IX`. There a
 
 Given a roman numeral, convert it to an integer.
 
-### Constraints
+## Constraints
 * `1 <= s.length <= 15`
 * `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
 *  It is **guaranteed** that s is a valid roman numeral in the range [1, 3999].
 
-### [Solution: Python](./Python/roman_to_integer.py)
+### [Solution](./Python/roman_to_integer.py)
 
-## Longest Common Prefix
+# Longest Common Prefix
 
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string `""`.
 
-### Constraints
+## Constraints
 
 * `1 <= strs.length <= 200`
 * `0 <= strs[i].length <= 200`
 * `strs[i]` consists of only lowercase English letters.
 
-### [Solution: Python](./Python/longest_common_prefix.py)
+### [Solution](./Python/longest_common_prefix.py)
 
-## Valid Parentheses
+# Valid Parentheses
 
 Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -125,23 +110,23 @@ Open brackets must be closed in the correct order.
 
 Every close bracket has a corresponding open bracket of the same type.
 
-### Constraints
+## Constraints
 
-* `1 <= s.length <= 104`
+* `1 <= s.length <= 10^4`
 * `s` consists of parentheses only `'()[]{}'`.
 
-### [Solution: Python](./Python/valid_parentheses.py)
+### [Solution](./Python/valid_parentheses.py)
 
-## Shuffle the Array
+# Shuffle the Array
 
 Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
 
 *Return the array in the form* `[x1,y1,x2,y2,...,xn,yn]`.
 
-### Constraints
+## Constraints
 
 * `1 <= n <= 500`
 * `nums.length == 2n`
 * `1 <= nums[i] <= 10^3`
 
-### [Solution: Python](./Python/shuffle_the_array.py)
+### [Solution](./Python/shuffle_the_array.py)
