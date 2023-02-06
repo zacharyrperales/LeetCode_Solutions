@@ -47,7 +47,7 @@ You can return the answer in any order.
 * `2 <= nums.length <= 10^4`
 * `-10^9 <= nums[i] <= 10^9`
 * `-10^9 <= target <= 10^9`
-* *Only one valid answer exists.*
+* **Only one valid answer exists.**
 
 
 ### [Solution](./Python/two_sum.py)
@@ -82,7 +82,7 @@ Given a roman numeral, convert it to an integer.
 ## Constraints
 * `1 <= s.length <= 15`
 * `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
-*  It is **guaranteed** that s is a valid roman numeral in the range [1, 3999].
+*  It is **guaranteed** that `s` is a valid roman numeral in the range `[1, 3999]`.
 
 ### [Solution](./Python/roman_to_integer.py)
 
