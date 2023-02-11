@@ -24,6 +24,7 @@
 - [Longest Common Prefix](#longest-common-prefix)
 - [Valid Parentheses](#valid-parentheses)
 - [Shuffle the Array](#shuffle-the-array)
+- [Find Center of Star Graph](#find-center-of-star-graph)
 
 # Palindrome Number
 
@@ -131,3 +132,23 @@ Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y
 * `1 <= nums[i] <= 10^3`
 
 ### [Solution](./Python/shuffle_the_array.py)
+
+# Find Center of Star Graph
+
+There is an undirected **star** graph consisting of `n` nodes labeled from `1` to `n`
+A star graph is a graph where there is one **center** node and **exactly** `n - 1` edges
+that connect the center node with every other node.
+
+You are given a 2D integer array `edges` where each `edges[i] = [u subscript(i), v subscript(i)]` 
+indicates that there is an edge between the nodes `u subscript(i)` and `v subscript(i)`. Return the center of the given star graph.
+
+## Constraints
+
+* `3 <= n <= 10^5`
+* `edges.length == n - 1`
+* `edges[i].length == 2`
+* `1 <= u subscript(i), v subscript(i) <= n`
+* `u subscript(i) != v subscript(i)`
+* The given `edges` represent a valid star graph.
+
+### [Solution: Python](./Python/find_center_of_star_graph.py)
