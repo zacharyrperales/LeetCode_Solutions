@@ -25,6 +25,8 @@
 - [Valid Parentheses](#valid-parentheses)
 - [Shuffle the Array](#shuffle-the-array)
 - [Find Center of Star Graph](#find-center-of-star-graph)
+- [Largest Number](#largest-number)
+
 
 # Palindrome Number
 
@@ -152,3 +154,17 @@ indicates that there is an edge between the nodes `u subscript(i)` and `v subscr
 * The given `edges` represent a valid star graph.
 
 ### [Solution: Python](./Python/find_center_of_star_graph.py)
+
+# Largest Number
+
+Given a list of non-negative integers `nums`, arrange them such that they form the largest number and return it.
+
+Since the result may be very large, so you need to return a string instead of an integer.
+
+## Constraints
+
+* `1 <= nums.length <= 1001 <= nums.length <= 100`
+* `0 <= nums[i] <= 10^9`
+
+### [Solution (Brute Force): Python](./Python/largest_number_(brute_force).py)
+
