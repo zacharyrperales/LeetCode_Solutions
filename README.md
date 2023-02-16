@@ -153,7 +153,7 @@ indicates that there is an edge between the nodes `u subscript(i)` and `v subscr
 * `u subscript(i) != v subscript(i)`
 * The given `edges` represent a valid star graph.
 
-### [Solution: Python](./Python/find_center_of_star_graph.py)
+### [Solution](./Python/find_center_of_star_graph.py)
 
 # Largest Number
 
@@ -166,5 +166,6 @@ Since the result may be very large, so you need to return a string instead of an
 * `1 <= nums.length <= 1001 <= nums.length <= 100`
 * `0 <= nums[i] <= 10^9`
 
-### [Solution (Brute Force): Python](./Python/largest_number_(brute_force).py)
+### [Solution (Brute Force)](./Python/largest_number_(brute_force).py)
+### [Solution (Optimized)](./Python/largest_number_(optimized).py)
 
