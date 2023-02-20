@@ -50,7 +50,7 @@ You can return the answer in any order.
 
 | Language | Type                           |  
 | :------: | :----------------------------: |
-| python3  | [brute force: iterative](./Python/two_sum.py) |
+| python3  | [brute force: iterative](./Easy/two_sum.py) |
 
 # 9. Palindrome Number
 
@@ -64,7 +64,7 @@ Given an integer `x`, return `true` *if* `x` *is a [palindrome](https://en.wikip
 
 | Language | Type                                     |  
 | :------: | :--------------------------------------: |
-| python3  | [optimized: iterative](./Python/palindrome_number.py) |
+| python3  | [optimized: iterative](./Easy/palindrome_number.py) |
 
 # 13. Roman to Integer
 
@@ -102,7 +102,7 @@ Given a roman numeral, convert it to an integer.
 
 | Language | Type                                    |  
 | :------: | :-------------------------------------: |
-| python3  | [optimal: iterative, hashmap](./Python/roman_to_integer.py) |
+| python3  | [optimal: iterative, hashmap](./Easy/roman_to_integer.py) |
 
 # 14. Longest Common Prefix
 
@@ -120,7 +120,7 @@ If there is no common prefix, return an empty string `""`.
 
 | Language | Type                                         |  
 | :------: | :------------------------------------------: |
-| python3  | [optimized: iterative](./Python/longest_common_prefix.py) |
+| python3  | [optimized: iterative](./Easy/longest_common_prefix.py) |
 
 # 20. Valid Parentheses
 
@@ -143,7 +143,7 @@ Every close bracket has a corresponding open bracket of the same type.
 
 | Language | Type                                                  |  
 | :------: | :---------------------------------------------------: |
-| python3  | [optimized: iterative, hashmap](./Python/valid_parentheses.py) |
+| python3  | [optimized: iterative, hashmap](./Easy/valid_parentheses.py) |
 
 # 21. Merge Two Sorted Lists
 
@@ -163,7 +163,7 @@ Return *the head of the merged linked list.*
 
 | Language | Type                                          |  
 | :------: | :-------------------------------------------: |
-| python3  | [optimized: recursive](./Python/merge_two_sorted_lists.py) |
+| python3  | [optimized: recursive](./Easy/merge_two_sorted_lists.py) |
 
 # 108. Convert Sorted Array to Binary Search Tree
 
@@ -180,7 +180,7 @@ Given an integer array `nums` where the elements are sorted in **ascending order
 
 | Language | Type                                                                         |  
 | :------: | :--------------------------------------------------------------------------: |
-| python3  | [optimal: recursive](./Python/convert_sorted_array_to_binary_search_tree.py) |
+| python3  | [optimal: recursive](./Easy/convert_sorted_array_to_binary_search_tree.py) |
 
 # 179. Largest Number
 
@@ -197,8 +197,8 @@ Since the result may be very large, so you need to return a string instead of an
 
 | Language | Type                                                                                   |  
 | :------: | :-----------------------------------------------------:                                |
-| python3  | [optimal: custom sort](./Python/largest_number_1.py)                       |
-|          | [optimal: timsort, custom comparator, concise](./Python/largest_number_2.py) |
+| python3  | [optimal: custom sort](./Medium/largest_number_1.py)                       |
+|          | [optimal: timsort, custom comparator, concise](./Medium/largest_number_2.py) |
 
 # 1470. Shuffle the Array
 
@@ -216,7 +216,7 @@ Given the array `nums` consisting of `2n` elements in the form `[` ${x_1}$ `,` $
 
 | Language | Type                                                |  
 | :------: | :-------------------------------------------------: |
-| python3  | [optimal: iterative](./Python/shuffle_the_array.py) |
+| python3  | [optimal: iterative](./Easy/shuffle_the_array.py) |
 
 # 1791. Find Center of Star Graph
 
@@ -240,5 +240,5 @@ indicates that there is an edge between the nodes ${u_i}$ and ${v_i}$. Return th
 
 | Language | Type                                                        |  
 | :------: | :---------------------------------------------------------: |
-| python3  | [optimal](./Python/find_center_of_star_graph.py) |
+| python3  | [optimal](./Easy/find_center_of_star_graph.py) |
 
