@@ -54,7 +54,7 @@ You can return the answer in any order.
 
 # 9. Palindrome Number
 
-Given an integer `x`, return `true` if `x` is a *[palindrome](https://en.wikipedia.org/wiki/Palindrome)*, and `false` otherwise.
+Given an integer `x`, return `true` *if* `x` *is a [palindrome](https://en.wikipedia.org/wiki/Palindrome), and* `false` *otherwise*.
 
 ## Constraints
 
@@ -107,6 +107,7 @@ Given a roman numeral, convert it to an integer.
 # 14. Longest Common Prefix
 
 Write a function to find the longest common prefix string amongst an array of strings.
+
 If there is no common prefix, return an empty string `""`.
 
 ## Constraints
@@ -150,7 +151,7 @@ You are given the heads of two sorted linked lists `list1` and `list2`.
 
 Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
 
-Return the *head of the merged linked list.*
+Return *the head of the merged linked list.*
 
 ## Constraints
 
@@ -201,9 +202,9 @@ Since the result may be very large, so you need to return a string instead of an
 
 # 1470. Shuffle the Array
 
-Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
+Given the array `nums` consisting of `2n` elements in the form `[x subscript(1), x subscript(2), ..., x subscript(n), y subscript(1), y subscript(2), ..., y subscript(n)]`.
 
-*Return the array in the form* `[x1,y1,x2,y2,...,xn,yn]`.
+*Return the array in the form* `[x subscript(1), y subscript(1), x subscript(2), y subscript(2), ..., x subscript(n), y subscript(n)]`.
 
 ## Constraints
 
