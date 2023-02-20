@@ -1,9 +1,9 @@
-############################
-# Author: Zachary Perales  #
-#                          #
-# Time  Complexity: O(n^2) #
-# Space Complexity: O(n)   #
-############################
+###################################
+# Author: Zachary Perales         #
+#                                 #
+# Time  Complexity: O(n * log(n)) #
+# Space Complexity: O(n)          #
+###################################
 
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
