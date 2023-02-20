@@ -41,9 +41,9 @@ You can return the answer in any order.
 
 ## Constraints
 
-* `2 <= nums.length <= 10^4`
-* `-10^9 <= nums[i] <= 10^9`
-* `-10^9 <= target <= 10^9`
+* `2 <= nums.length <=` ${10^4}
+* ${-10^9} `<= nums[i] <=` ${10^9}
+* ${-10^9} `<= target <=` ${10^9}
 * **Only one valid answer exists.**
 
 ## Solution
@@ -58,7 +58,7 @@ Given an integer `x`, return `true` *if* `x` *is a [palindrome](https://en.wikip
 
 ## Constraints
 
-* `-2^31 <= x <= 2^31 - 1`
+* ${-2^{31}}$ `<= x <=` ${2^{31}}$ `- 1`
 
 ## Solution
 
@@ -136,7 +136,7 @@ Every close bracket has a corresponding open bracket of the same type.
 
 ## Constraints
 
-* `1 <= s.length <= 10^4`
+* `1 <= s.length <=` ${10^4}$
 * `s` consists of parentheses only `'()[]{}'`.
 
 ## Solution
@@ -172,8 +172,8 @@ Given an integer array `nums` where the elements are sorted in **ascending order
 
 ## Constraints
 
-* `1 <= nums.length <= 10^4`
-* `-10^4 <= nums[i] <= 10^4`
+* `1 <= nums.length <=` ${10^4}$
+* ${-10^4}$ `<= nums[i] <=` ${10^4}$
 * `nums` is sorted in a **strictly increasing** order.
 
 ## Solution
@@ -190,8 +190,8 @@ Since the result may be very large, so you need to return a string instead of an
 
 ## Constraints
 
-* `1 <= nums.length <= 1001 <= nums.length <= 100`
-* `0 <= nums[i] <= 10^9`
+* `1 <= nums.length <= 100`
+* `0 <= nums[i] <=` ${10^9}$
 
 ## Solution
 
@@ -202,15 +202,15 @@ Since the result may be very large, so you need to return a string instead of an
 
 # 1470. Shuffle the Array
 
-Given the array `nums` consisting of `2n` elements in the form `[x subscript(1), x subscript(2), ..., x subscript(n), y subscript(1), y subscript(2), ..., y subscript(n)]`.
+Given the array `nums` consisting of `2n` elements in the form `[` ${x_1}$ `,` ${x_2}$ `, ...,` ${x_n}$ `,` ${y_1}$ `,` ${y_2}$ `, ...,` ${y_n}$ `]`.
 
-*Return the array in the form* `[x subscript(1), y subscript(1), x subscript(2), y subscript(2), ..., x subscript(n), y subscript(n)]`.
+*Return the array in the form* `[` ${x_1}$ `,` ${y_1}$ `,` ${x_2}$ `,` ${y_2}$ `, ...,` ${x_n}$ `,` ${y_n}$ `]`.
 
 ## Constraints
 
 * `1 <= n <= 500`
 * `nums.length == 2n`
-* `1 <= nums[i] <= 10^3`
+* `1 <= nums[i] <=` ${10^3}$
 
 ## Solution
 
@@ -224,16 +224,16 @@ There is an undirected **star** graph consisting of `n` nodes labeled from `1` t
 A star graph is a graph where there is one **center** node and **exactly** `n - 1` edges
 that connect the center node with every other node.
 
-You are given a 2D integer array `edges` where each `edges[i] = [u subscript(i), v subscript(i)]` 
-indicates that there is an edge between the nodes `u subscript(i)` and `v subscript(i)`. Return the center of the given star graph.
+You are given a 2D integer array `edges` where each `edges[i] = [` ${u_i}$ `,` ${v_i}$ `]` 
+indicates that there is an edge between the nodes ${u_i}$ and ${v_i}$. Return the center of the given star graph.
 
 ## Constraints
 
-* `3 <= n <= 10^5`
+* `3 <= n <=` ${10^5}$
 * `edges.length == n - 1`
 * `edges[i].length == 2`
-* `1 <= u subscript(i), v subscript(i) <= n`
-* `u subscript(i) != v subscript(i)`
+* `1 <=` ${u_i}$ `,` ${v_i}$ `<= n`
+* ${u_i}$ `!=` ${v_i}$
 * The given `edges` represent a valid star graph.
 
 ## Solution
