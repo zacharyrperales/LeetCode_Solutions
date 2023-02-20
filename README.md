@@ -9,7 +9,7 @@
   <div align="center">
     <a href="https://www.leetcode.com/zacharyromeperales"><img src="https://camo.githubusercontent.com/7c89b46de0f34cfcc4d8c7217c2359d1b1af78c72151f73f4e81b7aa127ca4c6/68747470733a2f2f692e696d6775722e636f6d2f49735335786b5a2e706e67" width="200"></a>
     <br>
-    <a href="https://www.leetcode.com">LeetCode</a> Challenge Solutions in Python
+    <a href="https://www.leetcode.com">LeetCode</a> Challenge Solutions
   </div>
   <br>
   <div align="left">
