@@ -27,6 +27,7 @@
 - [Find Center of Star Graph](#find-center-of-star-graph)
 - [Largest Number](#largest-number)
 - [Merge Two Sorted Lists](#merge-two-sorted-lists)
+- [Convert Sorted Array to Binary Search Tree](#convert-sorted-array-to-binary-search-tree)
 
 # Palindrome Number
 
@@ -184,4 +185,17 @@ Return the *head of the merged linked list.*
 * The number of nodes in both lists is in the range `[0, 50]`.
 * `-100 <= Node.val <= 100`
 * Both `list` and `list2` are sorted in **non-decreasing** order.
+
+# Convert Sorted Array to Binary Search Tree
+
+Given an integer array `nums` where the elements are sorted in **ascending order**, convert *it to a
+[height-balanced](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/) binary search tree.*
+
+### [Solution](./Python/convert_sorted_array_to_binary_search_tree.py)
+
+## Constraints
+
+* `1 <= nums.length <= 10^4`
+* `-10^4 <= nums[i] <= 10^4`
+* `nums` is sorted in a **strictly increasing** order.
 
