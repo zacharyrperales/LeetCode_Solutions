@@ -18,28 +18,20 @@
 </h1>
 </div>
 
-- [Palindrome Number](#palindrome-number)
-- [Two Sum](#two-sum)
-- [Roman to Integer](#roman-to-integer)
-- [Longest Common Prefix](#longest-common-prefix)
-- [Valid Parentheses](#valid-parentheses)
-- [Shuffle the Array](#shuffle-the-array)
-- [Find Center of Star Graph](#find-center-of-star-graph)
-- [Largest Number](#largest-number)
-- [Merge Two Sorted Lists](#merge-two-sorted-lists)
-- [Convert Sorted Array to Binary Search Tree](#convert-sorted-array-to-binary-search-tree)
+- Easy
+  - [1. Two Sum](#1-two-sum)
+  - [9. Palindrome Number](#9-palindrome-number)
+  - [13. Roman to Integer](#13-roman-to-integer)
+  - [14. Longest Common Prefix](#14-longest-common-prefix)
+  - [20. Valid Parentheses](#20-valid-parentheses)
+  - [21. Merge Two Sorted Lists](#21-merge-two-sorted-lists)
+  - [108. Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
+  - [1470. Shuffle the Array](#1470-shuffle-the-array)
+  - [1791. Find Center of Star Graph](#1791-find-center-of-star-graph)
+- Medium
+  - [179. Largest Number](#179-largest-number)
 
-# Palindrome Number
-
-Given an integer `x`, return `true` if `x` is a *[palindrome](https://en.wikipedia.org/wiki/Palindrome)*, and `false` otherwise.
-
-## Constraints
-
-* `-2^31 <= x <= 2^31 - 1`
-
-### [Solution](./Python/palindrome_number.py)
-
-# Two Sum
+# 1. Two Sum
 
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
 
@@ -48,15 +40,33 @@ You may assume that each input would have ***exactly*** **one solution**, and yo
 You can return the answer in any order.
 
 ## Constraints
+
 * `2 <= nums.length <= 10^4`
 * `-10^9 <= nums[i] <= 10^9`
 * `-10^9 <= target <= 10^9`
 * **Only one valid answer exists.**
 
+## Solution
 
-### [Solution](./Python/two_sum.py)
+| Language | Type                           |  
+| :------: | :----------------------------: |
+| python3  | [brute force: iterative](./Python/two_sum.py) |
 
-# Roman to Integer
+# 9. Palindrome Number
+
+Given an integer `x`, return `true` if `x` is a *[palindrome](https://en.wikipedia.org/wiki/Palindrome)*, and `false` otherwise.
+
+## Constraints
+
+* `-2^31 <= x <= 2^31 - 1`
+
+## Solution
+
+| Language | Type                                     |  
+| :------: | :--------------------------------------: |
+| python3  | [optimized: iterative](./Python/palindrome_number.py) |
+
+# 13. Roman to Integer
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
@@ -88,9 +98,13 @@ Given a roman numeral, convert it to an integer.
 * `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.
 *  It is **guaranteed** that `s` is a valid roman numeral in the range `[1, 3999]`.
 
-### [Solution](./Python/roman_to_integer.py)
+## Solution
 
-# Longest Common Prefix
+| Language | Type                                    |  
+| :------: | :-------------------------------------: |
+| python3  | [optimal: iterative, hashmap](./Python/roman_to_integer.py) |
+
+# 14. Longest Common Prefix
 
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string `""`.
@@ -101,9 +115,13 @@ If there is no common prefix, return an empty string `""`.
 * `0 <= strs[i].length <= 200`
 * `strs[i]` consists of only lowercase English letters.
 
-### [Solution](./Python/longest_common_prefix.py)
+## Solution
 
-# Valid Parentheses
+| Language | Type                                         |  
+| :------: | :------------------------------------------: |
+| python3  | [optimized: iterative](./Python/longest_common_prefix.py) |
+
+# 20. Valid Parentheses
 
 Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -120,9 +138,68 @@ Every close bracket has a corresponding open bracket of the same type.
 * `1 <= s.length <= 10^4`
 * `s` consists of parentheses only `'()[]{}'`.
 
-### [Solution](./Python/valid_parentheses.py)
+## Solution
 
-# Shuffle the Array
+| Language | Type                                                  |  
+| :------: | :---------------------------------------------------: |
+| python3  | [optimized: iterative, hashmap](./Python/valid_parentheses.py) |
+
+# 21. Merge Two Sorted Lists
+
+You are given the heads of two sorted linked lists `list1` and `list2`.
+
+Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
+
+Return the *head of the merged linked list.*
+
+## Constraints
+
+* The number of nodes in both lists is in the range `[0, 50]`.
+* `-100 <= Node.val <= 100`
+* Both `list` and `list2` are sorted in **non-decreasing** order.
+
+## Solution
+
+| Language | Type                                          |  
+| :------: | :-------------------------------------------: |
+| python3  | [optimized: recursive](./Python/merge_two_sorted_lists.py) |
+
+# 108. Convert Sorted Array to Binary Search Tree
+
+Given an integer array `nums` where the elements are sorted in **ascending order**, convert *it to a
+[height-balanced](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/) binary search tree.*
+
+## Constraints
+
+* `1 <= nums.length <= 10^4`
+* `-10^4 <= nums[i] <= 10^4`
+* `nums` is sorted in a **strictly increasing** order.
+
+## Solution
+
+| Language | Type                                                                         |  
+| :------: | :--------------------------------------------------------------------------: |
+| python3  | [optimal: recursive](./Python/convert_sorted_array_to_binary_search_tree.py) |
+
+# 179. Largest Number
+
+Given a list of non-negative integers `nums`, arrange them such that they form the largest number and return it.
+
+Since the result may be very large, so you need to return a string instead of an integer.
+
+## Constraints
+
+* `1 <= nums.length <= 1001 <= nums.length <= 100`
+* `0 <= nums[i] <= 10^9`
+
+## Solution
+
+| Language | Type                                                                                   |  
+| :------: | :-----------------------------------------------------:                                |
+| python3  | [optimal: custom sort](./Python/largest_number_1.py)                       |
+|          | [optimal: timsort, custom comparator, concise](./Python/largest_number_2.py) |
+
+# 1470. Shuffle the Array
 
 Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y2,...,yn]`.
 
@@ -134,9 +211,13 @@ Given the array `nums` consisting of 2n elements in the form `[x1,x2,...,xn,y1,y
 * `nums.length == 2n`
 * `1 <= nums[i] <= 10^3`
 
-### [Solution](./Python/shuffle_the_array.py)
+## Solution
 
-# Find Center of Star Graph
+| Language | Type                                                |  
+| :------: | :-------------------------------------------------: |
+| python3  | [optimal: iterative](./Python/shuffle_the_array.py) |
+
+# 1791. Find Center of Star Graph
 
 There is an undirected **star** graph consisting of `n` nodes labeled from `1` to `n`
 A star graph is a graph where there is one **center** node and **exactly** `n - 1` edges
@@ -154,48 +235,9 @@ indicates that there is an edge between the nodes `u subscript(i)` and `v subscr
 * `u subscript(i) != v subscript(i)`
 * The given `edges` represent a valid star graph.
 
-### [Solution](./Python/find_center_of_star_graph.py)
+## Solution
 
-# Largest Number
-
-Given a list of non-negative integers `nums`, arrange them such that they form the largest number and return it.
-
-Since the result may be very large, so you need to return a string instead of an integer.
-
-## Constraints
-
-* `1 <= nums.length <= 1001 <= nums.length <= 100`
-* `0 <= nums[i] <= 10^9`
-
-### [Solution (Brute Force)](./Python/largest_number_(brute_force).py)
-### [Solution (Optimized)](./Python/largest_number_(optimized).py)
- 
-# Merge Two Sorted Lists
-
-You are given the heads of two sorted linked lists `list1` and `list2`.
-
-Merge the two lists in a one **sorted** list. The list should be made by splicing together the nodes of the first two lists.
-
-Return the *head of the merged linked list.*
-
-### [Solution](./Python/merge_two_sorted_lists.py)
-
-## Constraints
-
-* The number of nodes in both lists is in the range `[0, 50]`.
-* `-100 <= Node.val <= 100`
-* Both `list` and `list2` are sorted in **non-decreasing** order.
-
-# Convert Sorted Array to Binary Search Tree
-
-Given an integer array `nums` where the elements are sorted in **ascending order**, convert *it to a
-[height-balanced](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/) binary search tree.*
-
-### [Solution](./Python/convert_sorted_array_to_binary_search_tree.py)
-
-## Constraints
-
-* `1 <= nums.length <= 10^4`
-* `-10^4 <= nums[i] <= 10^4`
-* `nums` is sorted in a **strictly increasing** order.
+| Language | Type                                                        |  
+| :------: | :---------------------------------------------------------: |
+| python3  | [optimal](./Python/find_center_of_star_graph.py) |
 
