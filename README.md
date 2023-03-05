@@ -25,6 +25,7 @@
   - [14. Longest Common Prefix](#14-longest-common-prefix)
   - [20. Valid Parentheses](#20-valid-parentheses)
   - [21. Merge Two Sorted Lists](#21-merge-two-sorted-lists)
+  - [35. Search Insert Position](#31-search-insert-position)
   - [108. Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
   - [1470. Shuffle the Array](#1470-shuffle-the-array)
   - [1791. Find Center of Star Graph](#1791-find-center-of-star-graph)
@@ -164,6 +165,26 @@ Return *the head of the merged linked list.*
 | Language | Type                                          |  
 | :------: | :-------------------------------------------: |
 | python3  | [optimized: recursive](./Easy/merge_two_sorted_lists.py) |
+
+# 35. Search Insert Position
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. 
+If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+## Constraints
+* `1 <= nums.length <=` $10^4$
+* $-10^4$ `<= nums[i] <=` $10^4$
+* `nums` contains **distinct** values sorted in **ascending** order.
+* $-10^4$ `<= target <=` $10^4$
+
+## Solution
+
+| Language | Type                                          |  
+| :------: | :-------------------------------------------: |
+| Java     | [optimized: binary search, class methods](./Easy/SearchInsertPosition.java) |
+
 
 # 108. Convert Sorted Array to Binary Search Tree
 
