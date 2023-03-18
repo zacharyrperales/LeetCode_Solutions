@@ -25,6 +25,7 @@
   - [14. Longest Common Prefix](#14-longest-common-prefix)
   - [20. Valid Parentheses](#20-valid-parentheses)
   - [21. Merge Two Sorted Lists](#21-merge-two-sorted-lists)
+  - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
   - [35. Search Insert Position](#31-search-insert-position)
   - [108. Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
   - [1470. Shuffle the Array](#1470-shuffle-the-array)
@@ -165,6 +166,31 @@ Return *the head of the merged linked list.*
 | Language  | Type                                          |  
 | :-------: | :-------------------------------------------: |
 | Python 3  | [optimized: recursive](./Easy/merge_two_sorted_lists.py) |
+
+# 26. Remove Duplicates from Sorted Array
+
+Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates in-place such that each unique element appears only **once**. 
+The **relative order** of the elements should be kept the **same**.
+
+Since it is impossible to change the length of the array in some languages, you must instead have the result be placed 
+in the **first part** of the array `nums`. More formally, if there are `k` elements after removing the duplicates, 
+then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k` elements.
+
+Return `k` *after placing the final result in the first* `k` *slots of* `nums`.
+
+Do **not** allocate extra space for another array. You must do this by **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
+
+## Constraints
+
+* `1 <= nums.length <= 3 *` ${10^4}$
+* `-100 <= nums[i] <= 100`
+* `nums` is sorted in **non-decreasing** order.
+
+## Solution
+
+| Language  | Type                                          |  
+| :-------: | :-------------------------------------------: |
+| Python 3  | [optimized: iterative](./Easy/remove_duplicates_from_sorted_array.py) |
 
 # 35. Search Insert Position
 
