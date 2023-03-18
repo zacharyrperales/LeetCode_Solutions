@@ -190,7 +190,7 @@ Do **not** allocate extra space for another array. You must do this by **modifyi
 
 | Language  | Type                                          |  
 | :-------: | :-------------------------------------------: |
-| Python 3  | [optimized: iterative](./Easy/remove_duplicates_from_sorted_array.py) |
+| Python 3  | [optimal: iterative](./Easy/remove_duplicates_from_sorted_array.py) |
 
 # 35. Search Insert Position
 
