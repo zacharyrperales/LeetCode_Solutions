@@ -28,6 +28,7 @@
   - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
   - [27. Remove Element](#27-remove-element)
   - [35. Search Insert Position](#31-search-insert-position)
+  - [58. Length of Last Word](#58-length-of-last-word)
   - [108. Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
   - [1470. Shuffle the Array](#1470-shuffle-the-array)
   - [1791. Find Center of Star Graph](#1791-find-center-of-star-graph)
@@ -236,6 +237,30 @@ You must write an algorithm with `O(log n)` runtime complexity.
 | :------: | :-------------------------------------------: |
 | Java     | [optimized: binary search, class methods](./Easy/SearchInsertPosition.java) |
 
+# 58. Length of Last Word
+
+Given a string `s` consisting of words and spaces, return the *length of the ***last*** *word in the string.*
+
+A **word** is a maximal [substring](https://en.wikipedia.org/wiki/Substring) consisting of non-space characters only.
+ 
+## Constraints
+
+* `1 <= s.length <=` $10^4$
+* `s` consists of only English letters and spaces `' '`.
+* There will be at least one word in `s`.
+
+## Solution
+
+| Language | Type                                          |  
+| :------: | :-------------------------------------------: |
+| Python   | [optimal](./Easy/length_of_last_word.py)      |
+
+
+## Solution
+
+| Language  | Type                                          |  
+| :-------: | :-------------------------------------------: |
+| Python 3  | [optimal](./Easy/remove_duplicates_from_sorted_array.py) |
 
 # 108. Convert Sorted Array to Binary Search Tree
 
