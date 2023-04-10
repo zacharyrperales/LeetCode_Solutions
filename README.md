@@ -29,6 +29,7 @@
   - [27. Remove Element](#27-remove-element)
   - [35. Search Insert Position](#31-search-insert-position)
   - [58. Length of Last Word](#58-length-of-last-word)
+  - [66. Plus One](#66-plus-one)
   - [108. Convert Sorted Array to Binary Search Tree](#108-convert-sorted-array-to-binary-search-tree)
   - [1470. Shuffle the Array](#1470-shuffle-the-array)
   - [1791. Find Center of Star Graph](#1791-find-center-of-star-graph)
@@ -255,12 +256,24 @@ A **word** is a maximal [substring](https://en.wikipedia.org/wiki/Substring) con
 | :------: | :-------------------------------------------: |
 | Python   | [optimal](./Easy/length_of_last_word.py)      |
 
+# 66. Plus One
+
+You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the $i^{th}$ digit of the integer. 
+The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
+
+Increment the large integer by one and return *the resulting array of digits*.
+
+## Constraints
+
+* `1 <= digits.length <= 100`
+* `0 <= digits[i] <= 9`
+* `digits` does not contain any leading `0`'s.
 
 ## Solution
 
-| Language  | Type                                          |  
-| :-------: | :-------------------------------------------: |
-| Python 3  | [optimal](./Easy/remove_duplicates_from_sorted_array.py) |
+| Solution                       |
+| :----------------------------: |
+| [Python](./Easy/plus_one.py)   |
 
 # 108. Convert Sorted Array to Binary Search Tree
 
